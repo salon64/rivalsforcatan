@@ -1,0 +1,113 @@
+[
+  {
+    "id": "forest",
+    "name": "Forest",
+    "archetype": "region",
+    "resource": "lumber",
+    "base_yield": 1,
+    "max_capacity": 3,
+    "copies": 4,
+    "die_values": [1, 2, 3, 4],
+    "starting_amount_resource": [1, 1, 0, 0],
+    "card_backs": ["blue", "red", "region", "region"],
+    "position": [[-2, 1], [-2, 1], null, null]
+  },
+  {
+    "id": "pasture",
+    "name": "Pasture",
+    "archetype": "region",
+    "resource": "wool",
+    "base_yield": 1,
+    "max_capacity": 3,
+    "copies": 4,
+    "die_values": [1, 2, 3, 4],
+    "starting_amount_resource": [1, 1, 0, 0],
+    "card_backs": ["blue", "red", "region", "region"],
+    "position": [[0, -1], [0, -1], null, null]
+  },
+  {
+    "id": "gold_feild",
+    "name": "Gold Feild",
+    "archetype": "region",
+    "resource": "gold",
+    "base_yield": 1,
+    "max_capacity": 3,
+    "copies": 4,
+    "die_values": [1, 2, 3, 4],
+    "starting_amount_resource": [0, 0, 0, 0],
+    "card_backs": ["blue", "red", "region", "region"],
+    "position": [[0, 1], [0, 1], null, null]
+  },
+  {
+    "id": "hills",
+    "name": "Hills",
+    "archetype": "region",
+    "resource": "brick",
+    "base_yield": 1,
+    "max_capacity": 3,
+    "copies": 4,
+    "die_values": [1, 2, 3, 4],
+    "starting_amount_resource": [1, 1, 0, 0],
+    "card_backs": ["blue", "red", "region", "region"],
+    "position": [[-2, -1], [-2, -1], null, null]
+  },
+  {
+    "id": "mountains",
+    "name": "Mountains",
+    "archetype": "region",
+    "resource": "ore",
+    "base_yield": 1,
+    "max_capacity": 3,
+    "copies": 4,
+    "die_values": [1, 2, 3, 4],
+    "starting_amount_resource": [1, 1, 0, 0],
+    "card_backs": ["blue", "red", "region", "region"],
+    "position": [[2, -1], [2, -1], null, null]
+  },
+  {
+    "id": "feilds",
+    "name": "Feilds",
+    "archetype": "region",
+    "resource": "grain",
+    "base_yield": 1,
+    "max_capacity": 3,
+    "copies": 4,
+    "die_values": [1, 2, 3, 4],
+    "starting_amount_resource": [1, 1, 0, 0],
+    "card_backs": ["blue", "red", "region", "region"],
+    "position": [[2, 1], [2, 1], null, null]
+  },
+  {
+    "id": "roads",
+    "name": "Roads",
+    "archetype": "roads",
+    "copies": 7,
+    "card_backs": ["blue", "red", null, null, null, null, null],
+    "position": [[0, 0], [0, 0], null, null, null, null, null]
+  },
+  {
+    "id": "settlements",
+    "name": "Settlements",
+    "archetype": "settlements",
+    "copies": 9,
+    "card_backs": ["blue", "blue", "red", "red", null, null, null, null, null],
+    "position": [[-1, 0], [1, 0], [-1, 0], [1, 0], null, null, null, null, null]
+  },
+  {
+    "id": "cities",
+    "name": "Cities",
+    "archetype": "cities",
+    "copies": 7,
+    "card_backs": [null, null, null, null, null, null, null],
+    "position": [null, null, null, null, null, null, null]
+  },
+  {
+    "id": "brick_factory",
+    "name": "Brick Factory",
+    "archetype": "buildings",
+    "resource": "brick",
+    "copies": 1,
+    "function": "",
+    "cost": { "ore": 1, "brick": 1 }
+  }
+]
